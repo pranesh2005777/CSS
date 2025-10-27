@@ -1,1 +1,62 @@
+*{
+    padding : 0px;
+}
+.header{
+    background-color :black;
+    color : white;
+    padding-bottom:15px;
+    padding-top : 10px;
+    text-align : center;
+}
+li{
+    display : inline;
+    color : grey;
+}
+li:hover
+{
+    color : white;
+}
+li{
+    cursor : pointer;
+}
+.box{
+    border-width : 2px;
+    border-style : solid;
+    border-color :black;
+    display : inline-block;
+    width : 220px;
+    text-align : center;
 
+}
+.products{
+    margin : 20px;
+    text-align : center;
+}
+.order{
+    display : inline;
+    text-align : center;
+    background-color : black;
+    color : white;
+}
+.order:hover{
+    color :blueviolet;
+    cursor : pointer;
+}
+.contact{
+    margin : 20 px;
+    background-color : black;
+    color : white;
+    text-align : center;
+    padding :20px;
+}
+.send{
+    background-color : yellow;
+    color : black;
+    cursor : pointer;
+    text-align : center;
+    margin : 10px;
+
+}
+.send:hover{
+    color : white;
+}
